@@ -17,9 +17,10 @@ public function get_posts($slug = FALSE)
         $query = $this->db->get_where('posts', array('slug' => $slug));
         return $query->row_array();
 }
-public function set_posts()
+public function set_posts($post_image_upload)
 {
-    $this->load->helper('url');
+
+    $this->load->helper('url','form');
 
     $slug = url_title($this->input->post('title'), 'dash', TRUE);
 
@@ -27,7 +28,7 @@ public function set_posts()
         'title' => $this->input->post('title'),
         'slug' => $slug,
         'text' => $this->input->post('text'),
-        
+        'post_image' => $post_image_upload
     );
 
     return $this->db->insert('posts', $data);
