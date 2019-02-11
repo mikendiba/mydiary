@@ -1,6 +1,18 @@
 
+     <!-- <div class="overlay"  style="background: #FF5733;"></div> -->
+  
+  <section style="background: url(http://localhost/mydiary/assets/img/diary.jpg); background-size: cover; background-position: center center" class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h1>MY DIARY</h1>
+          </div>
+        </div><a href=".posts-listing" class="continue link-scroll"><i class="fa fa-long-arrow-down"></i> Scroll Down</a>
+      </div>
+    </section>
+
 <div class="container">
-  <h2><?php echo $title; ?></h2>
+ 
       <div class="row">
         <!-- Latest Posts -->
         <main class="posts-listing col-lg-8"> 

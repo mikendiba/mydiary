@@ -1,11 +1,21 @@
+   <div style="background: #FF5733; padding: 20px;">
+     <div class="container" >
+          <div class="row" >
 
+                
+                     <h2><?php echo $title; ?></h2>
+              
+
+          </div>
+     </div>
+     </div>
 
 
     <div class="container">
       <div class="row">
         <!-- Latest Posts -->
         <main class="post blog-post col-lg-8"> 
-          <h2><?php echo $title; ?></h2>
+          <!-- <h2><?php //echo $title; ?></h2> -->
           <hr>
           
           <div class="container">

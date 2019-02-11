@@ -35,7 +35,7 @@ http://www.tooplate.com/view/2085-neuron
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" style="background: #FF5733;">
                                         <h2>Login</h2>
     <?php
     if(!empty($success_msg)){
