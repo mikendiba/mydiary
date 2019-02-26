@@ -87,7 +87,7 @@ $query =  $this->posts_model->delete_posts($data);
 
   if ($query) 
   {
-          $this->load->view('posts/success');
+          $this->load->view('posts/delete_success');
       }
    else
    {
